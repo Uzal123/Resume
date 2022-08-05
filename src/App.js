@@ -8,16 +8,21 @@ function App() {
   
   return (
     <div className="">
-     
-      <ReactToPrint
-        trigger={() => (
-          <button className=" bg-red-500 text-white px-8 py-4 my-8 rounded-md absolute right-4">
-            Print this out!
-          </button>
-        )}
-        content={() => componentRef}
-      />
+      <h2 className="text-white text-center  sm:hidden ">
+        Please view in desktop mode or download
+      </h2>
       <div className="flex justify-center">
+        <ReactToPrint
+          trigger={() => (
+            <button className=" bg-red-500 text-white px-8 py-4 my-8 rounded-md">
+              Download!
+            </button>
+          )}
+          content={() => componentRef}
+        />
+      </div>
+
+      <div className="hidden sm:flex justify-center">
         <div
           id="resume"
           className="pt-8 page"
@@ -198,10 +203,11 @@ function App() {
                   <h2 className="text-2xl font-bold pt-4 py-2">ABOUT ME</h2>
                 </div>
                 <p>
-                  Innovative optimized solution seeker. Excited to be deployment
-                  phase of my new career as a web developer. Highly Focused with
-                  the comprehensive knowledge of desinging and developing the
-                  layout, visual apprearance and usabilty of a website.
+                  Innovative optimized solution seeker. Excited to be in
+                  deployment phase of my new career as a web developer. Highly
+                  Focused with the comprehensive knowledge of desinging and
+                  developing the layout, visual apprearance and usabilty of a
+                  website.
                 </p>
               </div>
 

@@ -198,8 +198,8 @@ function App() {
                   <h2 className="text-2xl font-bold pt-4 py-2">ABOUT ME</h2>
                 </div>
                 <p>
-                  Innovative optimized solution seeker. Excited to be depolyment
-                  phase of my new carrer as a web developer. Highly Focused with
+                  Innovative optimized solution seeker. Excited to be deployment
+                  phase of my new career as a web developer. Highly Focused with
                   the comprehensive knowledge of desinging and developing the
                   layout, visual apprearance and usabilty of a website.
                 </p>

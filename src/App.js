@@ -37,7 +37,7 @@ function App() {
                 </h2>
               </div>
               <div>
-                <h2>WEB DEVELOPER</h2>
+                <h2>Computer Science Engineer</h2>
               </div>
             </div>
             <div className="absolute right-8 top-8 hidden">
@@ -123,12 +123,12 @@ function App() {
                     />
                   </svg>
                   <a
-                    href="https://ujjwalprofile.vercel.app"
+                    href="https://ujjwalpaswan.me"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="underline"
                   >
-                    ujjwalprofile.vercel.app
+                    ujjwalpaswan.me
                   </a>
                 </div>
                 <div className="flex">
@@ -176,36 +176,36 @@ function App() {
                   <li>Git/Github</li>
                   <li>MongoDB</li>
                   <li>Web Design</li>
-                  <li>Strong Communication</li>
+                  <li>C/C++</li>
                 </ul>
               </div>
               <div className="grid gap-4 border-r-2">
                 <h2 className="text-2xl font-bold pt-4">EDUCATION</h2>
 
                 <div>
-                  <h2 className="text-md font-bold">HIGER SECONDARY SCHOOL</h2>
-                  <p>GOLDENGATE INT'L COLLEGE</p>
-                  <p></p>
-                  <p> 2017 - 2019 </p>
-                </div>
-                <div>
                   <h2 className="text-md font-bold">HIGH SCHOOL</h2>
                   <p>SRI KRISHNA INSTITUTE OF TECHNOLOGY</p>
                   <p>Computer Science Engineering</p>
                   <p> 2019 - 2023 </p>
+                </div>
+                <div>
+                  <h2 className="text-md font-bold">HIGER SECONDARY SCHOOL</h2>
+                  <p>GOLDENGATE INT'L COLLEGE</p>
+                  <p></p>
+                  <p> 2017 - 2019 </p>
                 </div>
               </div>
               <div className="h-12 border-r-2"></div>
             </div>
             <div className="w-3/5">
               <div className="border-b-2 pl-4 pb-4">
-                <div className="flex pt-4">
+                <div className="flex ">
                   <h2 className="text-2xl font-bold pt-4 py-2">ABOUT ME</h2>
                 </div>
                 <p>
                   Innovative optimized solution seeker. Excited to be in
-                  deployment phase of my new career as a web developer. Highly
-                  Focused with the comprehensive knowledge of desinging and
+                  deployment phase of my new career as an Engineer. Highly
+                  Focused with the comprehensive knowledge of designing and
                   developing the layout, visual apprearance and usabilty of a
                   website.
                 </p>
@@ -232,14 +232,18 @@ function App() {
                   </div>
                   <div>
                     <a
-                      href="https://github.com/Uzal123/Portfolio"
+                      href="https://weatherappujjwal.netlify.app/"
                       className="text-md font-bold"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Portfolio Website
+                      Weather App
                     </a>
-                    <h2>- A single page react app.</h2>
+                    <h2>
+                      - Webapp created with reactjs with Openweather API
+                      integration. It takes the user input and gives the weather
+                      info about the input location.
+                    </h2>
                   </div>
                   <div>
                     <a
@@ -250,10 +254,7 @@ function App() {
                     >
                       Nike Store
                     </a>
-                    <h2>
-                      - A single page website created with Nextjs and styled
-                      with Tailwind
-                    </h2>
+                    <h2>- A single page website created with Nextjs.</h2>
                   </div>
                   <div>
                     <a
@@ -265,8 +266,9 @@ function App() {
                       Travel Company
                     </a>
                     <h2>
-                      - A single page website created with Nextjs and styled
-                      with Tailwind
+                      - Lets the user to plan their vaccation by showing
+                      different travel packages available. Developed with
+                      nextjs.
                     </h2>
                   </div>
                 </div>

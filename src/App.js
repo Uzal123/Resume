@@ -48,10 +48,10 @@ function App() {
               />
             </div>
           </div>
-          <div className="w-full flex px-8 pt-8">
+          <div className="w-full flex px-8 pt-4 text-sm">
             <div className="w-2/5">
-              <div className="grid gap-2 border-b-2 border-r-2 py-4">
-                <div className="flex">
+              <div className="grid gap-1 border-b-2 border-r-2 py-4">
+                <div className="flex ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-6 w-6"
@@ -66,7 +66,7 @@ function App() {
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  <p>+91 8310235365</p>
+                  <p className="">+91 8310235365</p>
                 </div>
                 <div className="flex">
                   <svg
@@ -172,35 +172,49 @@ function App() {
                   <li>Reactjs</li>
                   <li>Nextjs</li>
                   <li>Nodejs</li>
+                  <li>Swagger</li>
                   <li>Bootstrap</li>
                   <li>Git/Github</li>
                   <li>MongoDB</li>
-                  <li>Web Design</li>
+                  <li>API</li>
                   <li>C/C++</li>
                 </ul>
               </div>
-              <div className="grid gap-4 border-r-2">
+              <div className="grid gap-3 border-r-2">
                 <h2 className="text-2xl font-bold pt-4">EDUCATION</h2>
 
                 <div>
-                  <h2 className="text-md font-bold">HIGH SCHOOL</h2>
+                  <h2 className="text-md font-bold">
+                    HIGH SCHOOL<span>(64%)</span>
+                  </h2>
                   <p>SRI KRISHNA INSTITUTE OF TECHNOLOGY</p>
+                  <p>Bangalore</p>
                   <p>Computer Science Engineering</p>
                   <p> 2019 - 2023 </p>
                 </div>
                 <div>
-                  <h2 className="text-md font-bold">HIGER SECONDARY SCHOOL</h2>
+                  <h2 className="text-md font-bold">
+                    HIGER SECONDARY SCHOOL<span className="">(64.5%)</span>
+                  </h2>
                   <p>GOLDENGATE INT'L COLLEGE</p>
-                  <p></p>
+                  <p>Kathmandu</p>
                   <p> 2017 - 2019 </p>
                 </div>
+                <div>
+                  <h2 className="text-md font-bold">
+                    SECONDARY SCHOOL<span className="">(88.75%)</span>
+                  </h2>
+                  <p>LORD BRIGHT WISDOW INT'L ENGLISH SCHOOL</p>
+                  <p>Sarlahi</p>
+                  <p>2008 - 2017</p>
+                </div>
               </div>
-              <div className="h-12 border-r-2"></div>
+              <div className="h-6 border-r-2"></div>
             </div>
             <div className="w-3/5">
               <div className="border-b-2 pl-4 pb-4">
                 <div className="flex ">
-                  <h2 className="text-2xl font-bold pt-4 py-2">ABOUT ME</h2>
+                  <h2 className="text-2xl font-bold py-2">ABOUT ME</h2>
                 </div>
                 <p>
                   Innovative optimized solution seeker. Excited to be in
@@ -210,11 +224,24 @@ function App() {
                   website.
                 </p>
               </div>
+              <div className="border-b-2 pl-4 pb-4">
+                <h2 className="text-2xl font-bold py-4">EXPERIENCE</h2>
+                <div className="grid gap-4">
+                  <div>
+                    <p className="text-md font-bold">
+                      Mevi Technologies<span className="font-normal"> - (Oct 2022 - Nov 2022)</span>
+                    </p>
+                    <h2>Web Developer Intern</h2>
+
+                    <h2>
+                      - Developing webpages according to the clients need
+                    </h2>
+                  </div>
+                </div>
+              </div>
 
               <div className="border-b-2 pl-4 pb-4">
-                <h2 className="text-2xl font-bold py-4">
-                  PROJECTS AND EXPERIENCE
-                </h2>
+                <h2 className="text-2xl font-bold py-4">PROJECTS</h2>
                 <div className="grid gap-4">
                   <div>
                     <a

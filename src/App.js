@@ -1,11 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import "./App.css";
 import ReactToPrint from "react-to-print";
 import { AiFillGithub } from "react-icons/ai";
 
 function App() {
-    let componentRef = useRef();
-  
+  let componentRef = useRef();
+
+  useEffect(() => {
+    document.title = "Ujjwal Resume";
+  }, []);
   return (
     <div className="">
       <h2 className="text-white text-center  sm:hidden ">
@@ -156,6 +159,8 @@ function App() {
                   <AiFillGithub className="h-6 w-6" />
                   <a
                     className="underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.github.com/Uzal123"
                   >
                     Uzal123
@@ -164,28 +169,56 @@ function App() {
               </div>
               <div className="border-r-2 border-b-2">
                 <h2 className="text-2xl font-bold py-4">SKILLS</h2>
-                <ul className="list-disc pl-8 pb-4">
-                  <li>Html</li>
-                  <li>Css</li>
-                  <li>Tailwind Css</li>
-                  <li>Javascript</li>
-                  <li>Reactjs</li>
-                  <li>Nextjs</li>
-                  <li>Nodejs</li>
-                  <li>Swagger</li>
-                  <li>Bootstrap</li>
-                  <li>Git/Github</li>
-                  <li>MongoDB</li>
-                  <li>API</li>
-                  <li>C/C++</li>
-                </ul>
+                <div className="flex w-full justify-between pr-8">
+                  <div>
+                    <h2 className="text-md font-semibold">Front end skills</h2>
+                    <ul className="list-disc pl-8 pb-4">
+                      <li>Html</li>
+                      <li>CSS</li>
+                      <li>Sass</li>
+                      <li>Tailwind Css</li>
+                      <li>Javascript</li>
+                      <li>Typescript</li>
+                      <li>Reactjs</li>
+                      <li>Nextjs</li>
+                      <li>Bootstrap</li>
+                    </ul>
+                    <h2 className="text-md font-semibold">Other Skills</h2>
+                    <ul className="list-disc pl-8 pb-4">
+                      <li>C/C++</li>
+                      <li>Oracle SQL</li>
+                      <li>UI/UX Design</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h2 className="text-md font-semibold">Back end Skills</h2>
+                    <ul className="list-disc pl-8 pb-4">
+                      <li>Nodejs</li>
+                      <li>Swagger</li>
+                      <li>Nestjs</li>
+                      <li>GraphQL</li>
+                      <li>MongoDB</li>
+                      <li>Mongoose</li>
+                    </ul>
+
+                    <h2 className="text-md font-semibold">Web/Cloud Tools</h2>
+                    <ul className="list-disc pl-8 pb-4">
+                      <li>Nginx</li>
+                      <li>PM2</li>
+                      <li>Git/Github</li>
+                      <li>AWS - S3</li>
+                      <li>AWS - EC2</li>
+                      <li>Github Actions</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
               <div className="grid gap-3 border-r-2">
                 <h2 className="text-2xl font-bold pt-4">EDUCATION</h2>
 
                 <div>
                   <h2 className="text-md font-bold">
-                    HIGH SCHOOL<span>(64%)</span>
+                    HIGH SCHOOL<span>(76%)</span>
                   </h2>
                   <p>SRI KRISHNA INSTITUTE OF TECHNOLOGY</p>
                   <p>Bangalore</p>
@@ -199,14 +232,6 @@ function App() {
                   <p>GOLDENGATE INT'L COLLEGE</p>
                   <p>Kathmandu</p>
                   <p> 2017 - 2019 </p>
-                </div>
-                <div>
-                  <h2 className="text-md font-bold">
-                    SECONDARY SCHOOL<span className="">(88.75%)</span>
-                  </h2>
-                  <p>LORD BRIGHT WISDOW INT'L ENGLISH SCHOOL</p>
-                  <p>Sarlahi</p>
-                  <p>2008 - 2017</p>
                 </div>
               </div>
               <div className="h-6 border-r-2"></div>
@@ -229,13 +254,15 @@ function App() {
                 <div className="grid gap-4">
                   <div>
                     <p className="text-md font-bold">
-                      Mevi Technologies<span className="font-normal"> - (Oct 2022 - Nov 2022)</span>
+                      Mevi Technologies
+                      <span className="font-normal">
+                        {" "}
+                        - (Oct 2022 - Nov 2022)
+                      </span>
                     </p>
                     <h2>Web Developer Intern</h2>
 
-                    <h2>
-                      - Developing webpages according to the clients need
-                    </h2>
+                    <h2>- Developing webpages according to the clients need</h2>
                   </div>
                 </div>
               </div>
@@ -245,7 +272,38 @@ function App() {
                 <div className="grid gap-4">
                   <div>
                     <a
-                      href="https://ujjwalprofile.vercel.app"
+                      href="https://motoghar.com"
+                      className="text-md font-bold"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      MotoGhar
+                    </a>
+                    <h2 className="">
+                      - MotoGhar is an online marketplace for buying, selling,
+                      and renting vehicles. It is functional in Nepal.
+                    </h2>
+                  </div>
+
+                  <div>
+                    <a
+                      href="https://nammaskit.live"
+                      className="text-md font-bold"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Namma Skit
+                    </a>
+                    <h2>
+                      - Student Information and Management System build for
+                      SKIT. Manages and views student records.I have implemented
+                      various role management for students,teachers and Admin.
+                      It is functional in SKIT College, Bangalore.
+                    </h2>
+                  </div>
+                  <div>
+                    <a
+                      href="https://ujjwalpaswan.me"
                       className="text-md font-bold"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -254,48 +312,7 @@ function App() {
                     </a>
                     <h2>
                       - A single page website created with Nextjs and styled
-                      with Tailwind
-                    </h2>
-                  </div>
-                  <div>
-                    <a
-                      href="https://weatherappujjwal.netlify.app/"
-                      className="text-md font-bold"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Weather App
-                    </a>
-                    <h2>
-                      - Webapp created with reactjs with Openweather API
-                      integration. It takes the user input and gives the weather
-                      info about the input location.
-                    </h2>
-                  </div>
-                  <div>
-                    <a
-                      href="https://feathershoes.vercel.app"
-                      className="text-md font-bold"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Nike Store
-                    </a>
-                    <h2>- A single page website created with Nextjs.</h2>
-                  </div>
-                  <div>
-                    <a
-                      href="https://travel-company-kohl.vercel.app/"
-                      className="text-md font-bold"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Travel Company
-                    </a>
-                    <h2>
-                      - Lets the user to plan their vaccation by showing
-                      different travel packages available. Developed with
-                      nextjs.
+                      with Tailwind to show my projects.
                     </h2>
                   </div>
                 </div>

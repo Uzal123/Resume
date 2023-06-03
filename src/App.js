@@ -271,14 +271,39 @@ function App() {
                 <h2 className="text-2xl font-bold py-4">PROJECTS</h2>
                 <div className="grid gap-4">
                   <div>
-                    <a
-                      href="https://motoghar.com"
-                      className="text-md font-bold"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      MotoGhar
-                    </a>
+                    <div className="flex items-center">
+                      <a
+                        href="https://motoghar.com"
+                        className="text-md font-bold items-center flex"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        MotoGhar{" "}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth={2}
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        className="underline items-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.github.com/Uzal123/bikeapp"
+                      >
+                        <AiFillGithub className="h-6 w-6" />
+                      </a>
+                    </div>
                     <h2 className="">
                       - MotoGhar is an online marketplace for buying, selling,
                       and renting vehicles. It is functional in Nepal.
@@ -286,30 +311,79 @@ function App() {
                   </div>
 
                   <div>
-                    <a
-                      href="https://nammaskit.live"
-                      className="text-md font-bold"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Namma Skit
-                    </a>
+                    <div className="flex items-center">
+                      <a
+                        href="https://nammaskit.live"
+                        className="text-md font-bold items-center flex"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Namma SKIT{" "}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth={2}
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        className="underline items-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://github.com/Uzal123/nammaSkit"
+                      >
+                        <AiFillGithub className="h-6 w-6" />
+                      </a>
+                    </div>
                     <h2>
                       - Student Information and Management System build for
-                      SKIT. Manages and views student records.I have implemented
-                      various role management for students,teachers and Admin.
-                      It is functional in SKIT College, Bangalore.
+                      SKIT. Manages and views student records according to the
+                      user role.
                     </h2>
                   </div>
                   <div>
-                    <a
-                      href="https://ujjwalpaswan.me"
-                      className="text-md font-bold"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Mini Profile
-                    </a>
+                    <div className="flex items-center">
+                      <a
+                        href="https://ujjwalpaswan.me"
+                        className="text-md font-bold items-center flex"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Mini Profile{" "}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth={2}
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                          />
+                        </svg>
+                      </a>
+
+                      <a
+                        className="underline items-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://github.com/Uzal123/MiniProfile"
+                      >
+                        <AiFillGithub className="h-6 w-6" />
+                      </a>
+                    </div>
                     <h2>
                       - A single page website created with Nextjs and styled
                       with Tailwind to show my projects.
